@@ -43,7 +43,7 @@ app.use(passport.session());
 //  Cors Settings
 app.use(cors({
   credentials: true,
-  origin: ['http://localhost:3000', 'http://192.168.0.27:3000', 'http://192.168.0.39:3000','http://locaxtest.surge.sh:3000','http://locax.surge.sh:3000' ]
+  origin: ['http://localhost:3000', 'http://192.168.0.27:3000', 'http://192.168.0.39:3000','http://locaxtest.surge.sh','http://locax.surge.sh' ]
 }));
 
 // Call Endpoints.
